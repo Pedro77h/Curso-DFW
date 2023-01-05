@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import * as S from "./styles";
 import { BsPlus } from "react-icons/bs";
 
@@ -12,7 +12,7 @@ type State = {
 };
 
 export default class Content extends React.Component<Props, State> {
-  constructor(props: { firstNumber: number }) {
+  constructor(props: {}) {
     super(props);
 
     this.state = {
